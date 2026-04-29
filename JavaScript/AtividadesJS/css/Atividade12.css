@@ -1,0 +1,42 @@
+
+div{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+form{
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px;
+    width: 300px;
+    border-radius: 15px; 
+    background-color: lightblue;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+button{
+    margin-top: 20px; 
+    padding: 10px;
+    background-color: orange; 
+    color: white
+}
